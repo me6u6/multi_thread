@@ -1,0 +1,8 @@
+[package]
+name = "multi_thread"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.38", features = ["rt-multi-thread", "macros", "time", "signal"] }
+tokio-util = "0.7.10"
